@@ -4,10 +4,13 @@ import 'package:api_flutter/E-Commerce%20Api/View/cartProvider.dart';
 import 'package:api_flutter/E-Commerce%20Api/View/homePage.dart';
 import 'package:api_flutter/Pixabay%20Api/Provider/pixabayProvider.dart';
 import 'package:api_flutter/Recipe%20Api/Provider/recipeProvider.dart';
+import 'package:api_flutter/SkyScrapper/Provider/skyScrapperSearchProvider.dart';
+import 'package:api_flutter/SkyScrapper/Provider/skyScrapperProvider.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'Pixabay Api/View/homePage.dart';
 import 'Recipe Api/View/showRecipe.dart';
+import 'SkyScrapper/View/homePage.dart';
 
 void main() {
   runApp(const MyApp());
@@ -32,6 +35,12 @@ class MyApp extends StatelessWidget {
         ChangeNotifierProvider(
           create: (context) => CartProvider(),
         ),
+        ChangeNotifierProvider(
+          create: (context) => SkyScrapperProvider(),
+        ),
+        ChangeNotifierProvider(
+          create: (context) => SkyScrapperSearchProvider(),
+        ),
       ],
       builder: (context, child) => MaterialApp(
         // theme: ThemeData(
@@ -43,7 +52,7 @@ class MyApp extends StatelessWidget {
         //   ),
         // ),
         debugShowCheckedModeBanner: false,
-        home: const PixabayData(),
+        home: const SkyScrapper(),
       ),
     );
   }
