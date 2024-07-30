@@ -174,16 +174,21 @@ class WallPaperList extends StatelessWidget {
             ),
             Align(
               alignment: Alignment.topLeft,
-              child: Container(
-                height: width * 0.137,
-                width: width * 0.137,
-                alignment: Alignment.center,
-                decoration: BoxDecoration(
-                    borderRadius:
-                        BorderRadius.only(bottomRight: Radius.circular(23)),
-                    color: Colors.black54),
-                child: Icon(Icons.arrow_back,
-                    color: Colors.white, size: width * 0.075),
+              child: GestureDetector(
+                onTap: (){
+                  Navigator.of(context).pop();
+                },
+                child: Container(
+                  height: width * 0.137,
+                  width: width * 0.137,
+                  alignment: Alignment.center,
+                  decoration: BoxDecoration(
+                      borderRadius:
+                          BorderRadius.only(bottomRight: Radius.circular(23)),
+                      color: Colors.black54),
+                  child: Icon(Icons.arrow_back,
+                      color: Colors.white, size: width * 0.075),
+                ),
               ),
             ),
             Align(

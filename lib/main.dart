@@ -11,6 +11,7 @@ import 'package:provider/provider.dart';
 import 'Pixabay Api/View/homePage.dart';
 import 'Recipe Api/View/showRecipe.dart';
 import 'SkyScrapper/View/homePage.dart';
+import 'SkyScrapper/View/splashScreen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -52,7 +53,7 @@ class MyApp extends StatelessWidget {
         //   ),
         // ),
         debugShowCheckedModeBanner: false,
-        home: const SkyScrapper(),
+        home: const WaSplashscreen(),
       ),
     );
   }

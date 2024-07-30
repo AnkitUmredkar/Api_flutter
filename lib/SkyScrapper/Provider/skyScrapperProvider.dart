@@ -9,7 +9,7 @@ import 'package:async_wallpaper/async_wallpaper.dart';
 class SkyScrapperProvider extends ChangeNotifier {
 
   SkyScrapperModal? skyScrapperModalModal;
-  String search = 'wallpaper hd';
+  String search = 'nature';
 
   Future<SkyScrapperModal?> fromMap(String img) async {
     final data = await SkyScrapperApiHelper.apiHelper.fetchApiData(img);
