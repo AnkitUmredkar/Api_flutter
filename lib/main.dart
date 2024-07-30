@@ -4,14 +4,13 @@ import 'package:api_flutter/E-Commerce%20Api/View/cartProvider.dart';
 import 'package:api_flutter/E-Commerce%20Api/View/homePage.dart';
 import 'package:api_flutter/Pixabay%20Api/Provider/pixabayProvider.dart';
 import 'package:api_flutter/Recipe%20Api/Provider/recipeProvider.dart';
-import 'package:api_flutter/SkyScrapper/Provider/skyScrapperSearchProvider.dart';
-import 'package:api_flutter/SkyScrapper/Provider/skyScrapperProvider.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'Pixabay Api/View/homePage.dart';
 import 'Recipe Api/View/showRecipe.dart';
-import 'SkyScrapper/View/homePage.dart';
-import 'SkyScrapper/View/splashScreen.dart';
+import 'WallPaperApp/Provider/skyScrapperProvider.dart';
+import 'WallPaperApp/Provider/skyScrapperSearchProvider.dart';
+import 'WallPaperApp/View/splashScreen.dart';
 
 void main() {
   runApp(const MyApp());

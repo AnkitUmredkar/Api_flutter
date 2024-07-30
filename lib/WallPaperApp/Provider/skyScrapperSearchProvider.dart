@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import '../ApiHelper/skyScrapperApiHelper.dart';
 import '../Model/skyScrapperModel.dart';
-import '../View/skyScrapperSearchPage.dart';
+import '../View/wallPaperSearchPage.dart';
 
 class SkyScrapperSearchProvider extends ChangeNotifier{
   String search = '';

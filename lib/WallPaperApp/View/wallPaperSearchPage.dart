@@ -1,15 +1,14 @@
-import 'package:api_flutter/SkyScrapper/View/wallPaperList.dart';
+
+import 'package:api_flutter/WallPaperApp/View/wallPaperList.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/painting.dart';
 import 'package:provider/provider.dart';
+import '../../Pixabay Api/View/homePage.dart';
 import '../Model/skyScrapperModel.dart';
 import '../Provider/skyScrapperSearchProvider.dart';
-import '../Provider/skyScrapperProvider.dart';
 
 bool isVisible = false;
-
-TextEditingController category = TextEditingController();
 
 class SearchPage extends StatelessWidget {
   const SearchPage({super.key});
@@ -109,8 +108,7 @@ class SearchPage extends StatelessWidget {
                                                           Radius.circular(10)),
                                               image: DecorationImage(
                                                 fit: BoxFit.cover,
-                                                image: NetworkImage(sm!
-                                                    .hits[index].webformatURL),
+                                                image: NetworkImage(sm.hits[index].largeImageURL),
                                               )),
                                         ),
                                       ),
@@ -130,7 +128,7 @@ class SearchPage extends StatelessWidget {
                                                   color: Colors.red,
                                                 ),
                                                 Text(
-                                                    ' ${sm!.hits[index].likes.toString()}',
+                                                    ' ${sm.hits[index].likes.toString()}',
                                                     style: TextStyle(
                                                         color: Colors.white,
                                                         fontSize:

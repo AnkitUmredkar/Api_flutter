@@ -43,7 +43,7 @@ class WallPaperList extends StatelessWidget {
                       decoration: BoxDecoration(
                           image: DecorationImage(
                         fit: BoxFit.cover,
-                        image: NetworkImage(sm!.hits[index].webformatURL),
+                        image: NetworkImage(sm!.hits[index].largeImageURL),
                       )),
                     ),
                   ),
@@ -51,7 +51,7 @@ class WallPaperList extends StatelessWidget {
                     decoration: BoxDecoration(
                         image: DecorationImage(
                       fit: BoxFit.cover,
-                      image: NetworkImage(sm!.hits[index].webformatURL),
+                      image: NetworkImage(sm!.hits[index].largeImageURL),
                     )),
                     child: Align(
                       alignment: Alignment.bottomCenter,

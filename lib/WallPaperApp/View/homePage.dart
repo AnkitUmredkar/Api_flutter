@@ -1,5 +1,6 @@
-import 'package:api_flutter/SkyScrapper/View/skyScrapperSearchPage.dart';
-import 'package:api_flutter/SkyScrapper/View/wallPaperList.dart';
+
+import 'package:api_flutter/WallPaperApp/View/wallPaperList.dart';
+import 'package:api_flutter/WallPaperApp/View/wallPaperSearchPage.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:page_transition/page_transition.dart';
@@ -7,6 +8,7 @@ import '../Model/skyScrapperModel.dart';
 import '../Provider/skyScrapperProvider.dart';
 
 bool isShow = false;
+TextEditingController category = TextEditingController();
 
 class SkyScrapper extends StatelessWidget {
   const SkyScrapper({super.key});
@@ -81,8 +83,9 @@ class SkyScrapper extends StatelessWidget {
                                 image: DecorationImage(
                                   fit: BoxFit.cover,
                                   image: NetworkImage(
-                                      sm!.hits[index].webformatURL),
-                                )),
+                                      sm!.hits[index].largeImageURL),
+                                ),
+                            ),
                           ),
                         ),
                         Padding(
