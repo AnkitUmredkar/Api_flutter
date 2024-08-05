@@ -17,6 +17,14 @@
 
 <h1 align="center"> </h1>
 
+## Common Status Codes :
+
+- **200 OK :** The request was successful, and the response contains the requested data.
+- **400 Bad Request :** The request was invalid (e.g., missing information).
+- **401 Unauthorized :** You don't have permission to access the resource.
+- **404 Not Found :** The requested resource doesn't exist.
+- **500 Internal Server Error :** There was a problem on the server side.
+
 ## Response :
 
 The response is the information that the API server sends back to the client application after processing the request. It typically includes:
