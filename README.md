@@ -2,9 +2,29 @@
 ## API (Application Programming Interface):
 
 - API stands for Application Programming Interface. It is a set of rules and protocols that allows different software applications to communicate with each other. APIs enable developers to use predefined methods to interact with other software or services without needing to understand their internal workings.
+- ```API is a URL that is used to interact with the server.```
+- ```APIs act as messengers between different software applications```
+- 
+<h1 align="center"> </h1>
 
 ## How do APIs work?
 - API architecture is usually explained in terms of client and server. The application sending the request is called the client, and the application sending the response is called the server. So in the weather example, the bureau’s weather database is the server, and the mobile app is the client.
+  
+<h1 align="center"> </h1>
+
+## Explain with Example
+```bash Imagine you're at a restaurant. You (the client) want to order food (data or functionality). The menu (API documentation) tells you what dishes (functions) are available and how to ask for them (request format). The waiter (server) takes your order (request) to the kitchen (database or service), retrieves the food (data or response), and brings it back to you.```
+
+<h1 align="center"> </h1>
+
+## Response :
+
+The response is the information that the API server sends back to the client application after processing the request. It typically includes:
+
+- **Status code:** Indicates whether the request was successful or not.
+- **Headers:** Additional information about the response, like the data format (e.g., JSON) or caching instructions.
+- **Body:** The actual data that the API is sending back, often in JSON or XML format.
+
 <h1 align="center"> </h1>
 
 <h1 align="center"> 🔶🔸 9.1 Dummy Json API Calling 🔸🔶 </h1>
