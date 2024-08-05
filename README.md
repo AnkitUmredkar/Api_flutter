@@ -13,7 +13,7 @@
 <h1 align="center"> </h1>
 
 ## Explain with Example
-```bash Imagine you're at a restaurant. You (the client) want to order food (data or functionality). The menu (API documentation) tells you what dishes (functions) are available and how to ask for them (request format). The waiter (server) takes your order (request) to the kitchen (database or service), retrieves the food (data or response), and brings it back to you.```
+- ```bash Imagine you're at a restaurant. You (the client) want to order food (data or functionality). The menu (API documentation) tells you what dishes (functions) are available and how to ask for them (request format). The waiter (server) takes your order (request) to the kitchen (database or service), retrieves the food (data or response), and brings it back to you.```
 
 <h1 align="center"> </h1>
 
