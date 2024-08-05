@@ -50,3 +50,31 @@
 <div align="center">
 <video height="550" src="https://github.com/user-attachments/assets/ff2988a6-5d00-48ea-ba36-306fddac7be7"/>
 </div>
+
+<h1 align="center"> </h1>
+
+<h1 align="center"> 🔶🔸 Wall Paper App 🔸🔶 </h1>
+
+<div align="center">
+<img height="550" align="left" src="https://github.com/user-attachments/assets/37207cc0-4736-47f5-97e2-15018593f058"/>
+<img height="550" src="https://github.com/user-attachments/assets/327aa955-2019-4c73-9972-46de0178e7a1"/>
+<img height="550" align="right" src="https://github.com/user-attachments/assets/f9c3cd4f-ac91-4adb-9548-9f7e9ad138e2"/>
+</div>
+
+<h1 align="center"> </h1>
+
+<div align="center">
+<img height="550" align="left" src="https://github.com/user-attachments/assets/36074d87-46a7-468c-b25e-e39466ef7892"/>
+<img height="550" src="https://github.com/user-attachments/assets/327aa955-2019-4c73-9972-46de0178e7a1"/>
+<img height="550" align="right" src="https://github.com/user-attachments/assets/36074d87-46a7-468c-b25e-e39466ef7892"/>
+</div>
+
+<h1 align="center"> </h1>
+
+<div align="center">
+<img height="550" align="left" src="https://github.com/user-attachments/assets/9b61f8f8-a513-4615-9617-6e8bd3abc96c"/>
+<img height="550" src="https://github.com/user-attachments/assets/6be70eac-3885-4fe9-84ae-5b71115dc61a"/>
+<img height="550" align="right" src="https://github.com/user-attachments/assets/15909266-3127-4e04-8f48-d52280ebce59"/>
+</div>
+
+<h1 align="center"> </h1>
