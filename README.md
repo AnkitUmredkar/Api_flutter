@@ -29,9 +29,9 @@
 
 The response is the information that the API server sends back to the client application after processing the request. It typically includes:
 
-- **Status code:** Indicates whether the request was successful or not.
-- **Headers:** Additional information about the response, like the data format (e.g., JSON) or caching instructions.
-- **Body:** The actual data that the API is sending back, often in JSON or XML format.
+- **Status code :** Indicates whether the request was successful or not.
+- **Headers :** Additional information about the response, like the data format (e.g., JSON) or caching instructions.
+- **Body :** The actual data that the API is sending back, often in JSON or XML format.
 
 <h1 align="center"> </h1>
 
